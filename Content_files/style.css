@@ -1,0 +1,161 @@
+/* 
+Theme Name: Alpha Quintrex
+Description: Alpha Quintrex is a super clean WordPress theme with a fully responsive design. The minimalist design and simple typography places more emphasis on your images and content. If you’re looking for a SEO friendly, modern theme Alpha Quintrex is highly recommended.  
+Author: Alpha WP Themes 
+Author URI: http://www.alphawpthemes.com
+Theme URI: http://www.alphawpthemes.com/themes/quintrex
+Tags: blue, gray, white, light, responsive-layout, custom-menu, featured-images, sticky-post
+Version: 1.0.1
+License: GNU General Public License v3.0
+License URI: http://www.gnu.org/licenses/gpl-3.0.html 
+*/ 
+
+body {padding-top:50px; background-color:#ecebe9; font-family:'Roboto Slab',serif; font-weight:300;}
+a {color:#78a3b9; outline:none!important; text-decoration:none!important;}
+a:hover {text-decoration:none; color:#323e4e;}
+#content {background-color:#fff; padding-top:25px; margin:25px auto 50px auto;}
+
+/* ----- header & footer ----- */
+.navbar-fixed-top {border:0; font-weight:400;}
+.navbar-brand, .navbar-brand:hover {color:#fff; font-weight:700;}
+.navbar {background-color:#323e4e;}
+.navbar li a {color:#afbbc1;}
+.navbar li a:hover {color:#fff; background-color:#bed4df;}
+.navbar .sub-menu {display:none;}
+.navbar-toggle {background-color:#fff;} 
+.icon-bar {background-color:#323e4e;}
+.admin-bar .navbar-fixed-top {top:28px;}
+#footer-widgets {background-color:#dfdfdf; padding-top:25px;} 
+#footer-widgets h4 {margin:0 0 12px 0;}
+#footer-meta {width:100%; background-color:#323e4e; color:#fff; text-align:center; padding-bottom:10px;}
+#footer-meta a:hover {color:#9CBF9D;}
+#footer-menu {text-align:center;}
+#footer-menu ul {display:inline-block; padding:0;}
+#footer-menu li {display:inline; margin-right:20px;}
+#footer-menu li .sub-menu {display:none;}  
+#footer-brand a {font-size:22px; color:#fff; font-weight:400;}
+#footer-credits {font-size:12px; color:#bed4df;}
+#footer-credits a {color:#bed4df;}
+
+/* ----- widgets ----- */
+.widget {margin-bottom:25px;}
+.widget ul {margin:0; padding:0;}
+.widget li {margin:0 0 3px 16px;}
+.widget #searchform label {display:none;}
+.widget #searchform input[type=text] {margin-right:8px;}
+.widget #wp-calendar {width:100%;}
+.widget #wp-calendar td {text-align:center;}
+.widget #wp-calendar caption {margin-bottom:6px;}
+
+/* ----- home featured posts ----- */
+#featured {padding:25px 0; position:relative; min-height:395px; background-color:#dfdfdf;}
+#featured h3 {border-left:1px solid #ccc; padding:0 10px 0 25px; font-size:24px; font-weight:400;}
+#featured h3 a {color:#323e4e;}
+#featured h3 a:hover {color:#9CBF9D;}
+#featured h3.active {border-color:#323e4e;}
+#featured .feat-img {position:absolute; top:0; display:none; padding:2px 0; border-top:1px solid #ccc; border-bottom:1px solid #ccc;}
+#featured .feat-img.active {display:block;}
+#featured .placeholder {width:555px; height:345px;}
+
+/* ----- home latest posts ----- */
+#latest {width:100%; float:left; margin-bottom:35px;}
+#latest h2 {text-align:center; font-size:28px; margin:0 0 35px 0;}
+#latest .title {font-size:13px; color:#323e4e; font-weight:400;}
+#latest .latest-holder:hover .title {color:#9CBF9D;}
+
+/* ----- teaser posts ----- */
+#posts .article-heading {text-align:center; font-size:24px; margin:0 auto; max-width:700px; font-weight:400;}
+#posts .article-heading a {color:#323e4e;}
+#posts .article-heading a:hover {color:#9CBF9D;}
+#posts .meta {text-align:center; margin:3px 0 30px 0; color:#aaa; font-size:12px;}
+#posts .meta a {color:#aaa;}
+#posts .wp-post-image {margin:0 auto 50px auto;}
+#posts .more-link {margin:50px auto 25px auto; width:154px; font-size:14px; font-weight:bold; display:block; background-color:#de3a31; color:#fff; text-align:center; padding:8px; -webkit-border-radius:3px; -moz-border-radius:3px; border-radius:3px;}
+#posts .more-link:hover {background-color:#c12c24;}
+#posts article {border-bottom:1px dotted #ccc; padding-bottom:30px; margin-bottom:30px;}
+#pager {text-align:center; margin-bottom:25px; clear:both; font-size:13px;}
+#pager .page-numbers, #pager a {padding:2px 7px; background-color:#ebebeb; text-align:center;}
+#pager .dots, #pager .prev, #pager .next {background-color:#fff;}
+#pager span {padding-right:8px;}
+#sub-heading {margin-top:0; text-align:center;}
+.divider {font-size:120px; margin-bottom:55px; color:#aaa; line-height:0; font-family:monospace; text-align:center; width:100%; display:block;}
+.sticky {background-color:#fff;}
+
+/* ----- single posts ----- */
+#single-heading {text-align:center; font-size:30px; margin:0 auto; max-width:700px;}
+#single-meta {text-align:center; margin:3px 0 30px 0; color:#aaa; font-size:14px;}
+#single-meta a {color:#aaa;}
+#featured-image {max-width:100%; text-align:center;}
+#featured-image img {padding:2px 0; border-top:1px solid #ccc; border-bottom:1px solid #ccc; margin-bottom:25px;}
+article h1, article h2, article h3, article h4, article h5, article h6 {font-weight:400;}
+article img {display:inline-block; height:auto; max-width:100%;}
+article strong {font-weight:400;}
+article p {font-size:16px; line-height:1.7em;}
+article blockquote {border-left:2px solid #ccc; padding-left:25px; color:#999; font-size:17px;}
+article td {padding:6px 10px; border:1px solid #eee;}
+article th {padding:0 0 6px 10px; font-weight:400; text-align:left;}
+article ul, article ol {padding-left:0; margin-left:20px; font-size:16px; line-height:1.7em;}
+article li {margin-bottom:10px;}
+article dl {margin-bottom:20px;}
+article dt {font-weight:400;}
+article dd {margin:0 0 10px 0;}
+article q {font-style:italic;}
+article .attachment-post-thumbnail {margin-bottom:35px;}
+.single-post .divider {margin-top:-10px}
+.wp-caption {max-width:99%;}
+.gallery-caption {max-width:150px;}
+.wp-caption-text {margin-top:2px; color:#999; font-size:13px;}
+.alignleft {float:left; margin-right:20px;}
+.aligncenter {text-align:center;}
+.alignright {float:right; margin-left:20px;}
+.tags {list-style:none; padding:0; margin:30px 0 0 0;}
+.tags li {margin:0 10px 4px 0; display:inline;}
+.tags a {background-color:#ebebeb; padding:4px 8px; font-size:13px;}
+.error404 p {text-align:center;}
+
+/* ----- comments & forms ----- */
+#comments {text-align:center; margin:50px 0 25px 0; background:#fff url('assets/img/line.png') 0 12px repeat-x;}
+#comments span {background-color:#fff; padding:0 20px;}
+.comment-list {margin:0; padding:0;}
+.comment-list li {list-style:none; margin-bottom:20px;}
+.comment-list .avatar {float:left; margin-right:10px;}
+.comment-list .fn {font-size:16px; position:relative; top:-3px;}
+.comment-list .fn a {color:#333;}
+.comment-list .says, .form-allowed-tags {display:none;}
+.comment-list .comment-meta {position:relative; top:-9px;}
+.comment-list .comment-meta a {font-size:11px; color:#999;}
+.comment-body p {font-size:14px;}
+#commentform label {width:100px; font-size:13px; font-weight:400;}
+#commentform .form-submit {margin-bottom:25px;}
+#comment {width:520px; margin-bottom:25px;}
+.comment-form-comment label {display:none;}
+.reply {font-size:13px;}
+.logged-in-as, .comment-notes {font-size:14px;}
+.bypostauthor {background-color:#f0f0f0; padding:10px;}
+label {font-weight:400;}
+input[type=text], input[type=password], input[type=email], textarea {border:1px solid #eee; font-size:14px; font-family:'Roboto Slab',serif; padding:5px 6px; font-weight:300; background-color:#f5f5f5; color:#333; max-width:80%;}
+input[type=password] {margin-right:4px;}
+input[type=submit] {background-color:#de3a31; color:#fff; font-weight:bold; padding:7px 12px; font-size:13px; -moz-border-radius:3px; border-radius:3px; border:0; cursor:pointer;}
+
+/* ----- additional resposnsive styles ----- */
+@media (min-width:993px) and (max-width:1200px) {
+	#featured {min-height:340px;}
+	#featured .img-responsive {max-width:460px;}
+	#featured h3 {font-size:20px;}
+	#featured .placeholder {width:460px; height:290px;}
+}
+@media (min-width:768px) and (max-width:992px) { 
+	#featured {min-height:272px;}
+	#featured .img-responsive {max-width:356px;}
+	#featured h3 {font-size:16px;}
+	#featured .placeholder {width:356px; height:222px;}
+}
+@media (max-width:767px) {
+	#featured {min-height:0;}
+	#featured img {display:none;} 
+	#featured h3 {font-size:16px;}
+	#latest {text-align:center;}
+	#latest .title {font-size:16px;}
+	.latest-holder {margin-bottom:20px;}
+	.latest-holder img {margin:0 auto 8px auto;}	
+}
